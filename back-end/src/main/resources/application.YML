@@ -1,0 +1,18 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/zosh_food?useSSL=false&serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      format_sql : true
+
+
+
+api:
+  prefix : shop-app
