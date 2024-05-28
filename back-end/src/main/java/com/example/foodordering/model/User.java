@@ -26,7 +26,7 @@ public class User {
     String fullName;
     String email;
     String password;
-    ROLE role;
+    ROLE role= ROLE.ROLE_CUSTOMER;
     @JsonIgnore//loại bỏ order -> json get user
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "customer")// xem lại
     List<Order> orders = new ArrayList<>();

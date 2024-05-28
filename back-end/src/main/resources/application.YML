@@ -15,4 +15,4 @@ spring:
 
 
 api:
-  prefix : shop-app
+  prefix : api

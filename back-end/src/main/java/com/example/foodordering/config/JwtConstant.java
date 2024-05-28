@@ -5,5 +5,5 @@ public class JwtConstant {
     public static final String SECRET_KEY="2345678fghjerg7duht7rhfoirfygdhori";
 
     public static  final String JWT_HEADER ="Authorization";
-    
+
 }
