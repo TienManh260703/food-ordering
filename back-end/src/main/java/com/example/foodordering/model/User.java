@@ -1,6 +1,7 @@
 package com.example.foodordering.model;
 
 import com.example.foodordering.dto.RestaurantDto;
+import com.example.foodordering.enums.ROLE;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.*;

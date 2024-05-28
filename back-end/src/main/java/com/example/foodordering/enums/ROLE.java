@@ -1,4 +1,4 @@
-package com.example.foodordering.model;
+package com.example.foodordering.enums;
 
 import lombok.Getter;
 
